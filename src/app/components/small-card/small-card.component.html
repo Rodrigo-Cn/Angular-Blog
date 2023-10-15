@@ -1,13 +1,13 @@
 <div class="container">
     <div class="image">
-        <img src="https://s2.glbimg.com/2C0hMRuCY_7NfDPjby4_Bjmq8Nc=/e.glbimg.com/og/ed/f/original/2018/03/22/avengers-infinity-war-official-poster-2018-4o.jpg">
+        <img src="{{ image }}">
     </div>
     <div class="text">
         <div class="title">
-            <h1>Lorem ipsum dolor sit amet consectetur adipisicing eli.</h1>
+            <h1><a [routerLink]="['content',Id]">{{ title }}</a></h1>
         </div>
         <div class="description">
-            <h5>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita minima dolores aspernatur obcaecati, eaque ratione dolore minus repellendus vero perferendis blanditiis error provident! Perferendis placeat quae nulla, non sunt sint?</h5>
+            <h5>{{ description }}</h5>
         </div>
     </div>
 </div>

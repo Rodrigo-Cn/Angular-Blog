@@ -1,11 +1,11 @@
 <div class="container">
     <div class="photo">
-        <img src="https://variety.com/wp-content/uploads/2013/03/ironman31.jpg?w=1000&h=563&crop=1&resize=681%2C383" alt="icone.jpg">
+        <img src="{{ photo }}" alt="icone.jpg">
     </div>
     <div class="title">
-        <h1>Lorem ipsum dolor, ameaceat molestiae sunt?</h1>
+        <h1><a [routerLink]="['content',Id]">{{ titulo }}</a></h1>
     </div>
     <div class="description">
-        <h5>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi quibusdam ad recusandae voluptatibus, maiores eveniet repellat molestias quisquam excepturi sequi delectus! Consectetur libero animi tenetur eius facilis illum ipsa magni?adipisicing elit. Quasi quibusdam ad recusandae voluptatibus, maiores eveniet repellat molestias quisquam excepturi sequi delectus! Consectetur libero animi tenetur eius facilis illum ipsa magni?adipisicing elit. Quasi quibusdam ad recusandae voluptatibus, maiores eveniet repellat molestias quisquam excepturi sequi delectus! Consectetur libero animi tenetur eius facilis illum ipsa magni?adipisicing elit. Quasi quibusdam ad recusandae voluptatibus, maiores eveniet repellat molestias quisquam excepturi sequi delectus! Consectetur libero animi tenetur eius facilis illum ipsa magni?adipisicing elit. Quasi quibusdam ad recusandae voluptatibus, maiores eveniet repellat molestias quisquam excepturi sequi delectus! Consectetur libero animi tenetur eius facilis illum ipsa magni.</h5>
+        <h5>{{ description }}</h5>
     </div>
 </div>

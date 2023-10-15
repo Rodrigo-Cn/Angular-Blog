@@ -27,3 +27,11 @@ h1{
 h5{
     color: gray;
 }
+a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    color: white;
+    text-decoration:underline;
+}

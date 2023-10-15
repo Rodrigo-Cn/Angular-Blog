@@ -17,3 +17,11 @@ img{
     padding-top: 20px;
     padding-left: 20px;
 }
+a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    color: white;
+    text-decoration:underline;
+}
