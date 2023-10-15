@@ -1,9 +1,25 @@
-.Menu-Bar{
+a{
     color: white;
+    text-decoration: none;
+    font-size: 20px;
 }
-.Menu-Bar h1{
-    color: white;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    font-size: 3rem;
+ul{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px;
+    justify-content: center;
+    list-style: none;
+}
+li:nth-child(1){
+    padding-left: 0px;
+}
+li:nth-child(2){
+    padding-left: 200px;
+}
+li:nth-child(3){
+    padding-left:200px;
+}
+a:hover{
+    text-decoration: underline;
+    transition: 1.5s;
 }

@@ -1,0 +1,16 @@
+.Menu-Title{
+    color: white;
+    text-align:center;
+}
+.Menu-Title h1{
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 7rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+hr{
+    height: 2px;
+    background-color: white;
+}
