@@ -1,0 +1,13 @@
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 10px;
+}
+.card1{
+    width: 40%;
+    padding-top: 20px;
+}
+.card2{
+    width: 60%;
+    padding-top: 20px;
+}

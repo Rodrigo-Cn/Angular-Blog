@@ -1,0 +1,16 @@
+.title{
+    color: white;
+    padding-top: 20px;
+}
+.description{
+    color: gray;
+    margin-right: 40px;
+}
+img{
+    height: 300px;
+    width: 500px;
+}
+.container{
+    padding-top: 20px;
+    padding-left: 20px;
+}

@@ -1,0 +1,9 @@
+.Menu-Bar{
+    color: white;
+}
+.Menu-Bar h1{
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 3rem;
+}

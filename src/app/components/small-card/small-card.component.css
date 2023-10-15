@@ -1,0 +1,27 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+.image{
+    width: 30%;
+}
+
+img {
+    padding: 10px;
+    height: 170px;
+    width: 90%;
+}
+
+.text {
+    width: 60%;
+    padding: 20px;
+    padding-top: 0px;
+}
+h1{
+    color: white;
+}
+h5{
+    color: gray;
+}
